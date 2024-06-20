@@ -1,0 +1,18 @@
+body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+    margin-left: 50%;
+  }
+  p {
+    color: red;
+  }
+  header {
+        margin-bottom: 50%;
+
+  }
+  th {
+    border: 10;
+    margin-bottom: 25%;
+  }
