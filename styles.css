@@ -1,18 +1,10 @@
-body {
-    background-color: powderblue;
-  }
+/* body {
+    background-image: url('img\240_F_710176444_e30k9HqvLEST9TZDKO7IX8cvgsMV7kTJ.jpg');
+  } */
   h1 {
     color: blue;
-    margin-left: 50%;
+    /* margin-left: 0%; */
   }
   p {
     color: red;
-  }
-  header {
-        margin-bottom: 50%;
-
-  }
-  th {
-    border: 10;
-    margin-bottom: 25%;
   }
