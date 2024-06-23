@@ -1,10 +1,40 @@
-/* body {
-    background-image: url('img\240_F_710176444_e30k9HqvLEST9TZDKO7IX8cvgsMV7kTJ.jpg');
-  } */
-  h1 {
-    color: blue;
-    /* margin-left: 0%; */
-  }
-  p {
-    color: red;
-  }
+body {
+  background-image: url('img/pexels-jeremy-bishop-1260133-2397414.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.navbar-brand img {
+  border-radius: 50%;
+}
+.gallery-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+.modal-img {
+  width: 100%;
+  height: auto;
+}
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #096b00;
+}
+.gallery {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
