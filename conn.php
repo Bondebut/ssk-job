@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';  // Database host
 $db = 'stck';   // Database name
-$user = 'root';       // Database user
-$pass = 'AAaeiou88';           // Database password
+$user = 'admin';       // Database user
+$pass = 'admin';           // Database password
 
 try {
     $dsn = "mysql:host=$host;dbname=$db;charset=utf8";
@@ -12,7 +12,6 @@ try {
     echo 'Connection failed: ' . $e->getMessage();
     exit;
 }
-
 
 //connection
 // $conn = new mysqli($servername,$username,$password);
