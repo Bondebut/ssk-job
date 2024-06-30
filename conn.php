@@ -1,10 +1,21 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "AAaeiou88";
+$host = 'localhost';  // Database host
+$db = 'stck';   // Database name
+$user = 'root';       // Database user
+$pass = 'AAaeiou88';           // Database password
+
+try {
+    $dsn = "mysql:host=$host;dbname=$db;charset=utf8";
+    $pdo = new PDO($dsn, $user, $pass);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo 'Connection failed: ' . $e->getMessage();
+    exit;
+}
+
 
 //connection
-$conn = new mysqli($servername,$username,$password);
+// $conn = new mysqli($servername,$username,$password);
 
 //checked
 // if ($conn->connect_error){
