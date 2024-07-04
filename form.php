@@ -10,7 +10,6 @@
     </styles>
 </head>
 <body>
-
     <?php include_once('nav.php'); ?>
 
     <form>

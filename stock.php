@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <title>Stock</title>
     <style>
        body {
@@ -20,9 +18,6 @@
             border-radius: 10px;
             padding: 20px;
             margin-top: 50px;
-        }
-        .navbar-brand img {
-            border-radius: 50%;
         }
         .main-content {
             margin-top: 50px;
@@ -78,11 +73,17 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td></td>
+                            <td> </td>
                         </tr>
                     </tfoot>
                   </table>              
             </div>
+            <?php for($i=0;$i<=144;$i++){
+                               for($j=0;$j<=6;$j++){
+                                echo "192.168.0.$i";
+                               }
+                               
+                    } ?>
             
             <p class="text-center mt-4">
                 <a href="index.html" class="btn btn-primary">หน้าหลัก</a>

@@ -73,7 +73,7 @@
                 </div>
             </div>
             <p class="text-center mt-4">
-                <a href="gallery.html" class="btn btn-primary" target="_blank">Go to Gallery</a>
+                <a href="gallery.php" class="btn btn-primary" target="_blank">Go to Gallery</a>
             </p>
         </div>
     </div>
